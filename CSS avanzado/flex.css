@@ -1,0 +1,36 @@
+.flex-container {
+display: flex;
+background-color: var(--highlight);
+height: 200px;
+align-items: center;
+
+
+justify-content: space-between;
+
+flex-wrap: wrap;
+/* wrap los elementos se van hacia abajo, wrap-reverse, se van para arriba, 
+nowrap no se mueven ni arriba ni abajo */
+
+flex-direction: column;
+/* de filas a colmunas mover los elementos*/
+
+}
+
+.flex-container div {
+padding: 5px;
+width: 100px;
+height: 38px;
+text-align: center;
+font-size: 2rem;
+
+
+}
+#box-2 {
+    /*cambiar orden del elemento*/
+    order: 1;
+    /*va empezar a comparar de menor a mayor hasta que encuentre su posicion.
+     o hasta que ya no haya con que comparar*/
+
+     
+
+}

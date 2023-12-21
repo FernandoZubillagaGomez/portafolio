@@ -1,0 +1,22 @@
+#none {
+
+    display: none;
+}
+
+#inline {
+
+    display: inline;
+}
+
+#block {
+display: block;
+
+}
+
+#inline-block{
+display: inline-block;
+
+width: 50px;
+height: 10px;
+
+}
