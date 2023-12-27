@@ -1,0 +1,38 @@
+.grid-container {  /* cuadricula(grid)*/
+background-color: var(--highlight);
+width: 20px;
+height: 20px;
+padding: 5px;
+text-align: center;
+}
+.container {
+    display: grid;
+
+gap: 20px; /*espacios*/
+
+grid-template-rows: auto auto auto ;  /*filas*/
+
+grid-template-columns: auto auto auto ; /* 3 sub divisiones de 4 espacios*/
+
+}
+.container div {
+    background-color: var(--highlight);
+    width: auto;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#item-1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    grid-area: 1/2/5/6; /* es una combnacion de columnas y filas(row)*/
+}

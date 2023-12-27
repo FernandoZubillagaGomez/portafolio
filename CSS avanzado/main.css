@@ -1,0 +1,42 @@
+:root {
+    --main-bg-color: #219C90;
+    --secondary: #e9b824;
+    --highlight: #d83f31;
+    --light: #ee9322;
+}
+
+body {
+    font-family: sans-serif;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: var(--main-bg-color);
+}
+
+.container {
+    margin-bottom: 20px;
+    height: auto;
+    background-color: var(--secondary);
+}
+
+#none {
+display: none;
+
+}
+
+#inline {
+
+display: inline;
+
+}
+
+#block {
+
+display: block;
+
+}
+
+#inline-block {
+    display: inline-block;
+    width: 50px;
+}

@@ -1,0 +1,56 @@
+:root {
+    --main-bg-color: #219C90;
+  --secondary: #e9b824;
+    --highlight: #d83f31;
+    --light: #ee9322;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: var(--main-bg-color);
+}
+.container {
+    height: 50px;
+background-color: var(--secondary);
+}
+/* position default de elementos html */
+.item {
+    background-color: var(--highlight);
+position: static;
+}
+
+#relative {
+    position: relative;
+    bottom: 20px;
+    left: 40px;
+}
+.fixed-container {
+    border: 2px solid var(--light);
+}
+#fixed {
+   position: fixed;
+   left: 50vw;
+   top: 50vh;
+
+}
+
+.absolute-container {
+    position: fixed;
+    width: 70px;
+}
+#absolute {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
+
+.sticky-container {
+    height: 150px;
+}
+
+#sticky {
+    position: sticky;
+    top: 0;
+}
