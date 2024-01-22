@@ -30,20 +30,6 @@ agregar = false;
     console.table(listMovies)
 }
 
-
-//const prompt = require("prompt-sync")();
-
-
-// let username = prompt("Nombre de usuario")
-// let ageData = prompt("edad usuario")
-// let favMovie = prompt("Pelicula favorita")
-
-// console.log("nombre de usuario es:" + usernames)
-// console.log("nombre de usuario es:" + ageData)
-// console.log("nombre de usuario es:" + favMovie)
-
-
-
 // Highest number
 // Write a program that asks for 10 numbers. Using logical operators and any other javascript functions/structures you've seen before, determine and output the highest of those numbers.
 
