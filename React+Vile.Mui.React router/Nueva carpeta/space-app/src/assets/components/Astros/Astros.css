@@ -1,0 +1,29 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-container {
+width: 100%;
+padding: 20px;
+margin: 0;
+flex-direction: column;
+}
+
+.card {
+background-color: #ffebc4;
+}
+
+.card-name {
+    font-size: 1.5rem;
+
+}
+
+.card-station {
+    font-size: 1.2rem;
+}
+
+p {
+    color: black;
+}
